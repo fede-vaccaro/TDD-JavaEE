@@ -1,16 +1,15 @@
 package myPackage;
 
 import javax.persistence.Entity;
-import javax.persistence.Id;
-import javax.persistence.Table;
-import javax.persistence.Transient;
 import javax.persistence.GeneratedValue;
-
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.Transient;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-@Entity(name="person")
+@Entity(name="persons")
 //@Table(name = "person", schema="public")
 public class Person {
 

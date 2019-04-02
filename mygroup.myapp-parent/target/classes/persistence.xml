@@ -5,11 +5,11 @@
     <persistence-unit name="my-persistence-unit">
         <class>myPackage.Person</class>
         <properties>
-            <property name="hibernate.dialect" value="org.hibernate.dialect.PostgreSQL94Dialect" />
-            <property name="javax.persistence.jdbc.driver" value="org.postgresql.Driver" />
-            <property name="javax.persistence.jdbc.url" value="jdbc:postgresql://localhost:5432/hibernate_db/Schema1" />
-            <property name="javax.persistence.jdbc.user" value="hibernate" />
-            <property name="javax.persistence.jdbc.password" value="hibernate" />
+            <property name="hibernate.dialect" value="org.hibernate.dialect.MySQL5Dialect" />
+            <property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver" />
+            <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:42333/schema1" />
+            <property name="javax.persistence.jdbc.user" value="root" />
+            <property name="javax.persistence.jdbc.password" value="example" />
 	</properties>
     </persistence-unit>
 </persistence>
