@@ -1,0 +1,4 @@
+myPackage\Person.class
+myPackage\PersonDAO.class
+myPackage\PersonDAOInterface.class
+myPackage\MainClass.class
